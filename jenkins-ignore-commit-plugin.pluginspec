@@ -10,9 +10,9 @@ Jenkins::Plugin::Specification.new do |plugin|
   plugin.url = 'https://wiki.jenkins-ci.org/display/JENKINS/Ignore+Commit+Plugin'
 
   # The first argument is your user name for jenkins-ci.org.
-  plugin.developed_by "jgrossmanrtr", "Jay Grossman <jgrossman@renttherunway.com>"
+  plugin.developed_by "jaygrossman", "Jay Grossman <jay.grossman@org>"
 
-  plugin.uses_repository :github => "RentTheRunway2/jenkins-ignore-commit-plugin"
+  plugin.uses_repository :github => "jaygrossman/jenkins-ignore-commit-plugin"
 
   # This is a required dependency for every ruby plugin.
   plugin.depends_on 'ruby-runtime', '0.12'
