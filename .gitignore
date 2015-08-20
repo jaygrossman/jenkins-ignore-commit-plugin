@@ -1,0 +1,6 @@
+.ruby-version
+.tmp/
+.vagrant/
+pkg/
+work/
+

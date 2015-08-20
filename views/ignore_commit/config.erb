@@ -1,0 +1,6 @@
+<%
+f = taglib("/lib/form")
+f.entry(:title => 'phrase', :field => 'ignore_commit_phrase', :description => "Commits containing this phrase will be considered NOT_BUILT") do
+  f.textbox
+end
+%>
